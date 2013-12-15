@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" verbose="2" name="eAdmission" parallel="methods" >
+    
+  <parameter name="browser" value="Chrome"/>
+  <test name="Test" preserve-order="true">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="eAdmission"/>
+    </packages>
+    <classes>
+      <class name="eAdmission.LoginTest"/>
+    </classes>
+  </test>
+</suite> 

@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="eAdmissions" parallel="methods" thread-count="1" verbose="2" >
+  <parameter name="browser" value="Chrome"></parameter>
+  <parameter name="platform" value="XP"></parameter>
+  <parameter name="first_scenario" value="8"></parameter>
+  <parameter name="last_scenario" value="8"></parameter>
+  <test name="Test">
+   <groups>
+    <run>
+    	<exclude name="create2Applications"/><description name="Create an account and complete 2 Applications for the same user"/>	
+    	<exclude name="invalid_user_name_account_details"/>
+    	<exclude name="changePassword"/>
+        <exclude name="createApplicationTestAllFields"/><description name="Create an account and complete a single Application with all fields"/>	
+	    <exclude name="saveAndExitThenDeleteTest"/><description name="Create an account and test Save and Exit Functionality, then delete the application"/>	
+	   	<exclude name="createAccountCreateApplicationOnlyMandatoryFields"/><description name="Create an account, close browser, login and complete a single Application"/>	  
+    	<include name="regression"/><description name="Create an account, close browser, login and complete a single Application by filling only mandatory fields"/>	  	
+    </run>
+  </groups>
+ </test>
+</suite>
+
+ 

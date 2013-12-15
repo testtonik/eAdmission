@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="9303" started-at="2013-12-15T14:06:25Z" finished-at="2013-12-15T14:06:34Z">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.tests()[pri:0, instance:eAdmission.LoginTest@5f70bea5]" name="tests" class="eAdmission.LoginTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Command line test" duration-ms="9303" started-at="2013-12-15T14:06:25Z" finished-at="2013-12-15T14:06:34Z">
+      <class name="eAdmission.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:eAdmission.LoginTest@5f70bea5]" name="init" is-config="true" duration-ms="13726" started-at="2013-12-15T15:06:11Z" finished-at="2013-12-15T15:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="tests()[pri:0, instance:eAdmission.LoginTest@5f70bea5]" name="tests" duration-ms="9294" started-at="2013-12-15T15:06:25Z" finished-at="2013-12-15T15:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tests -->
+        <test-method status="PASS" signature="kill()[pri:0, instance:eAdmission.LoginTest@5f70bea5]" name="kill" is-config="true" duration-ms="585" started-at="2013-12-15T15:06:34Z" finished-at="2013-12-15T15:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kill -->
+      </class> <!-- eAdmission.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
